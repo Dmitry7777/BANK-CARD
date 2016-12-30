@@ -26,7 +26,7 @@ public:
 
 private:
   //
-  bool password("**********"); //
+  bool password(); //
   bool account(); //
   void enter(); //
   void cancel(); //
