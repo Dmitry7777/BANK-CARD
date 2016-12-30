@@ -30,10 +30,12 @@ private:
   bool password(); //
   void enter(); //
   void cancel(); //
+  void blockCard(); //
 
 protected:
   //
 bool passwordRelease(); //
+bool hacking(); //
 void digitalSignature(); //
   
 }
