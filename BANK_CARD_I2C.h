@@ -13,7 +13,6 @@
 
 class BANK_CARD_I2C{
 
-
 public:
   //
   void begin(); //
@@ -27,10 +26,12 @@ public:
 
 private:
   //
-  bool password(); //
+  bool password("**********"); //
+  bool account(); //
   void enter(); //
   void cancel(); //
   void blockCard(); //
+  void unblockCard(); //
 
 protected:
   //
